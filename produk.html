@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EnadResto</title>
+  <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyResto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-lg"
+    style="background: linear-gradient(rgba(197, 26, 55, 0.5), rgba(255, 192, 203, 0.445))" data-bs-theme="dark">
+    <div class="container-fluid mx  -5">
+      <a class="navbar-brand" href="#">Nad's Berry</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="#">Keranjang</a>
+          <a class="nav-link disabled" aria-disabled="true">Promo</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--banner-->
+  <main>
+    <div class="container-fluid banner d-flex align-items-center">
+      <div class="container">
+        <h1 class="text-light text-center display-3" style="font-weight :200;">Welcome In Nad's Berry</h1>
+        <h2 class=" mb-5 text-light text-center display-10" style="font-weight:80;">What Do You Went To Eat?</h2>
+      </div>
+    </div>
+  </main>
+  <!--banner penutup-->
+
+  <!-- kategori -->
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+        <!-- kategori -->
+        <div class="col-md-4 col-lg-3 mb-5">
+          <h4>Kategori</h4>
+          <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">Pancake Berry</li>
+            <li class="list-group-item">Dessert Berry</li>
+            <li class="list-group-item">Berry Ice cream</li>
+            <li class="list-group-item">Croissant Berry</li>
+            <li class="list-group-item">Smoothies</li>
+          </ul>
+        </div>
+
+        <!-- produk -->
+
+        <div class="col-md-8 col-lg-9">
+          <h4 class="text-center mb-4">semua produk</h4>
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="pancake.jpg" data-lightbox="cheese-cake" data-title="Pancake Berry">
+                  <img src="pancake.jpg" class="card-img-top" alt="Cheese Cake" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Pancake Berry</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 25.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="g1.jpg" data-lightbox="Smoothies" data-title="Smoothies">
+                  <img src="g1.jpg" class="card-img-top" alt="Smoothies" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Smoothies</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 20.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="g2.jpg" data-lightbox="Lemon berry" data-title="Lemon berry">
+                  <img src="g2.jpg" class="card-img-top" alt="Lemon berry" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Lemon berry</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 15.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="masr.jpg" data-lightbox="Croissant" data-title="Croissant">
+                  <img src="masr.jpg" class="card-img-top" alt="Croissant" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Croissant</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 25.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="https://i.pinimg.com/1200x/f7/28/69/f72869ca1f45920e1a0f1f6ce9680824.jpg" data-lightbox="ice cream" data-title="ice cream">
+                  <img src="https://i.pinimg.com/1200x/f7/28/69/f72869ca1f45920e1a0f1f6ce9680824.jpg" class="card-img-top" alt="ice cream" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>ice cream</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 15.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="dessert.jpg" data-lightbox="dessert" data-title="dessert">
+                  <img src="dessert.jpg" class="card-img-top" alt="dessert" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>dessert</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 20.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="roti.jpg" data-lightbox="eclairs" data-title="eclairs">
+                  <img src="roti.jpg" class="card-img-top" alt="eclairs" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>eclairs</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 35.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="download (2).jfif" data-lightbox="Macaron Berry" data-title="Macaron Berry">
+                  <img src="download (2).jfif" class="card-img-top" alt="Macaron Berry" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Macaron Berry</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 15.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-3">
+              <div class="card">
+                <a href="download (1).jfif" data-lightbox="Roti Berry" data-title="Roti Berry">
+                  <img src="download (1).jfif" class="card-img-top" alt="Roti Berry" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title text-center text-warning"><strong>Roti Berry</strong></h5>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                  <h4 class="text-center text-warning mb-3">Rp 15.000</h4>
+                  <div class="dropdown text-center">
+                    <button class="btn btn-outline-warning dropdown-toggle w-100" type="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Selengkapnya</button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#detail.html">Lihat</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Beli</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- produk tutup -->
+
+
+            <!-- Pagination-->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination text-center justify-content-center mt-4">
+                <li class="page-item">
+                  <a class="page-link" href="#">Previsious</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Section subscribe -->
+      <div class="container-fluid py-5 footer">
+        <div class="container">
+
+          <h5 class="text-center text-light mb-3">Temui Kami</h5>
+          <div class="d-flex justify-content-center mb-5" style="gap: 70px">
+            <a href="https://facebook.com/username" target="_blank" class="social-icon">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://instagram.com/username" target="_blank" class="social-icon">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://twitter.com/username" target="_blank" class="social-icon">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://youtube.com@username" target="_blank" class="social-icon">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+          <h5 class="text-center text-light mb-1">Subscribe</h5>
+          <p class="text-center text-muted mb-3">untuk informasi tentang promo</p>
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Ketikan Email">
+                <button class="btn btn-warning text-light">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--penutup section subscribe-->
+
+      <!-- Section footer -->
+      <footer class="bg-dark text-light py-5" id="footer">
+        <div class="container">
+          <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h5 class="fw-bold mb-3">Nad's Berry</h5>
+              <p class="text-light small">Tempat makan nyamann</p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h5 class="fw-bold mb-3">Navigasi</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Produk</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Promo</a></li>
+                <li><a href="#" class="text-light text-decoration-none">Reservasi</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="fw-bold mb-3">Kontak</h5>
+              <ul class="list-unstyled text-light small">
+                <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i> Jl. Raya Kesamben No. 06, Jombang
+                </li>
+                <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i> +62 819 4322 9567</li>
+                <li class="mb-1"><i class="bi bi-envelope-fill me-2"></i> nadialyla@email.com</li>
+              </ul>
+            </div>
+          </div>
+          <hr class="border-secondary mt-4 mb-3">
+          <p class="text-center text-light small mb-0">
+            &copy; 2026 Nad's Berry. All rights reserved.
+          </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

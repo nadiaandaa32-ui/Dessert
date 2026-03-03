@@ -1,0 +1,102 @@
+
+.banner{
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("stbr.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    height: 100vh;
+    background: linear-gradient(rgba(243, 181, 219, 0.4),rgba(241, 177, 209, 0.4));
+    background-position: center;
+}
+
+.card img {
+    aspect-ratio: 3 / 4;
+}
+
+.serv {
+    background-color: rgb(216, 137, 137);
+}
+
+.icon-service {
+    width: 90px;
+    height: 90px;
+    border: solid white 2px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.testimony {
+    background-color: rgb(216, 137, 137) !important;
+}
+
+.testimony-card {
+    background: rgb(230, 146, 146) !important;
+    border: 1px solid rgba(255, 255, 255, 0.205) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgb(255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #FFC107;
+    font-size: 0.85rem;
+    margin-bottom: 12px
+}
+
+
+.footer {
+    background-color: #ffffff;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer .social-icon:hover {
+    color: #FFC107
+}
+
+.footer {
+    background-color: rgb(216, 137, 137);
+}
+
+.hovered-card {
+    transition: 0.3s;
+}
+
+.hovered-card:hover {
+    transform: translateY(-5px);
+}
